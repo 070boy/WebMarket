@@ -37,7 +37,7 @@ public class BoardController extends HttpServlet {
 			requestLoginName(request);
 			RequestDispatcher rd = request.getRequestDispatcher("./board/writeForm.jsp");
 			rd.forward(request, response);
-		} else if (command.equals("/BoardWriteAction.de")) {
+		} else if (command.equals("/BoardWriteAction.do")) {
 			requestBoardWrite(request);
 			RequestDispatcher rd = request.getRequestDispatcher("/BoardListAction.do");
 			rd.forward(request, response);

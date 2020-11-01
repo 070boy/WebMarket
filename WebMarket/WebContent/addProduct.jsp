@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
 <html>
 <head>
 	<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
@@ -46,7 +46,7 @@
 			<div class="form-group row">
 				<label class="col-sm-2">제조사</label>
 				<div class="col-sm-3">
-					<input type="text" id="manufacturer" class="form-control" >
+					<input type="text" name="manufacturer" class="form-control" >
 				</div>
 			</div>
 			<div class="form-group row">
